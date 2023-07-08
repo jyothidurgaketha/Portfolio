@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap');
+
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    font-size: 16px;
+}
+body{
+    overflow-x:hidden;
+}
+.bannerBgImage{
+    height:100vh;
+    background: url("http://getwallpapers.com/wallpaper/full/7/e/3/1414915-professional-desktop-wallpaper-1920x1080-for-hd-1080p.jpg");
+    background-size:cover;
+    position: relative;
+}
+
+.bannerText{
+    text-align: right;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.bannerTitle{
+    font-size: 4rem;
+}
+.bannerDesc{
+    font-size: 2rem;
+}
+
+.card{
+    cursor:pointer;
+}
+
+
+.card:hover{
+    background-color: rgb(188, 233, 187);
+    border: 2px solid rgb(222, 148, 184);
+}
+
+.bIcon{
+    width:100%;
+    text-align: center;
+    font-size: 40px;
+}
+.img-fluid:hover{
+    border: 2px solid rgb(9, 90, 95);
+}
+
+.card-img-top{
+    height: 40vh;
+}
+.card-text{
+    padding: 2px;
+    border: 1px;
+    align-content: center;
+}
+.card-body{
+    border-radius: 2px;
+    padding: 10px;
+}
+.project{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.skills{
+    width: 50px;
+    size: 10px;
+    align-items: center;
+}

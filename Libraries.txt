@@ -1,0 +1,8 @@
+Bootstrap
+Unsplash.com
+Bootstrap icons
+google map(click on share->embed a map->copy link)
+Fevicon generator
+Animate.css
+AOS(Animate On Scroll)
+Google Fonts
